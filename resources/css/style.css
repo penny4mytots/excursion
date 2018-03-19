@@ -2,12 +2,12 @@ body {
   font-family: Verdana;
   background-color: black;
   text-align: center;
+  color: white;
 }
 
 h1 {
   font-weight: normal;
   font-size: 50px;
-  color: white;
 }
 
 h2 {
@@ -15,17 +15,21 @@ h2 {
   font-size: 42px;
 }
 
-h3 {
+p {
   font-size: 21px;
   color: gray;
 }
 
-h4 {
+h4, a {
   color: aquamarine;
   font-size: 16px;
 }
 
-.trademark {
-  text align: right;
+video {
+    object-fit: contain;
+}
+
+#footer {
+  text-align: right;
   color: gray;
 }
